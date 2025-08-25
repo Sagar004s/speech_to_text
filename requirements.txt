@@ -1,0 +1,4 @@
+speech-recognition-python
+mtranslate
+hreading
+os
