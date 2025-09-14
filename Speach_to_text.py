@@ -36,7 +36,7 @@ def speech_to_text():
                 recognizer_text=recognizer.recognize_google(audio).lower()  
                 if recognizer_text:
                     trans_text=Translate_Hindi_to_English(recognizer_text)
-                    print("\r", Fore.BLUE + "Aman" + trans_text)
+                    print("\r", Fore.BLUE + "sagar" + trans_text)
                     return trans_text
                 else:
                     return " "
